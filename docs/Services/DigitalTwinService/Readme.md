@@ -227,6 +227,6 @@ PORT=3001
 
 ## Liên quan
 
-- [Prediction Service](./PredictionService/) – Dự báo dựa trên dữ liệu DT
-- [Simulation Service](./SimulationService/) – Mô phỏng kịch bản
-- [Dashboard Service](./DashboardService/) – Hiển thị DT trên bản đồ
+- [Prediction Service](../AIMLService/) – Dự báo dựa trên dữ liệu DT
+- [Simulation Service](../AnalyticsService/) – Mô phỏng kịch bản
+- [Dashboard Service](/Services/) – Hiển thị DT trên bản đồ

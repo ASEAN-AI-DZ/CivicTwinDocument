@@ -306,7 +306,7 @@ MODEL_PATH=/models
 ## Liên quan
 
 - [Digital Twin Service](../DigitalTwinService/) – Nguồn dữ liệu
-- [Simulation Service](../SimulationService/) – Sử dụng dự báo để mô phỏng
+- [Simulation Service](../AnalyticsService/) – Sử dụng dự báo để mô phỏng
 - [Notification Service](../NotificationService/) – Phân phối cảnh báo
 
 

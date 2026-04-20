@@ -346,7 +346,7 @@ TWILIO_AUTH_TOKEN=...
 - [Prediction Service](../AIMLService/) – Phát hiện sự cố
 - [Digital Twin Service](../DigitalTwinService/) – Dữ liệu vùng ảnh hưởng
 - [Incident Service](../IncidentService/) – Quản lý chi tiết sự cố
-- [Dashboard Service](../DashboardService/) – Hiển thị status
+- [Dashboard Service](/Services/) – Hiển thị status
 
 
   - Preview template

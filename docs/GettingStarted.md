@@ -183,8 +183,8 @@ aws configure
 
 - [Kiến trúc Hệ thống](./Architecture.md) – Tìm hiểu thiết kế chi tiết
 - [Cài đặt Không Docker](./BUILD_WITHOUT_DOCKER.md) – Nếu bạn không muốn dùng Docker
-- [Các Dịch vụ](./Services/) – Tìm hiểu từng microservice
-- [API Documentation](./Services/) – Danh sách API endpoints
+- [Các Dịch vụ](/Services/) – Tìm hiểu từng microservice
+- [API Documentation](/Services/) – Danh sách API endpoints
 
 ---
 
@@ -213,7 +213,7 @@ npm run seed
 
 ## 🆘 Cần Giúp Đỡ?
 
-- 📖 Đọc [Tài liệu đầy đủ](../README.md)
+- 📖 Xem [Kiến trúc Hệ thống](./Architecture.md) để hiểu thêm về thiết kế
 - 🐛 Báo bug: [GitHub Issues](https://github.com/asean-ai/civic-twin/issues)
 - 💬 Thảo luận: [GitHub Discussions](https://github.com/asean-ai/civic-twin/discussions)
 

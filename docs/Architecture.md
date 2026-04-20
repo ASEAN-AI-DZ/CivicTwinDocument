@@ -266,7 +266,7 @@ docker-compose --file docker-compose.prod.yml up -d
 
 ## 📚 Tài liệu Liên quan
 
-- [Services Documentation](./Services/)
-- [API Reference](./Services/)
+- [Services Documentation](/Services/)
+- [API Reference](/Services/)
 - [Installation Guide](./Installation.md)
 

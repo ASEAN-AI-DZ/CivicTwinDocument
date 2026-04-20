@@ -350,7 +350,7 @@ ray_cluster:
 
 - [Digital Twin Service](../DigitalTwinService/) – Baseline state
 - [Prediction Service](../AIMLService/) – Impact predictions
-- [Dashboard Service](../DashboardService/) – Visualization
+- [Dashboard Service](/Services/) – Visualization
 - [Notification Service](../NotificationService/) – Alerts
 
 

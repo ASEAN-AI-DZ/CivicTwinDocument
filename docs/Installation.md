@@ -324,13 +324,13 @@ Kiểm tra các dấu hiệu:
 
 1. [Hướng dẫn Bắt đầu](./GettingStarted.md) – Làm quen với giao diện
 2. [Kiến trúc](./Architecture.md) – Hiểu chi tiết hệ thống
-3. [Services](./Services/) – Tìm hiểu từng module
+3. [Services](/Services/) – Tìm hiểu từng module
 4. [Phát triển](./BUILD_WITHOUT_DOCKER.md) – Cài đặt để phát triển
 
 ---
 
 ## 💬 Cần Giúp?
 
-- 📖 [README chính](../README.md)
+- 📖 [Tài liệu giới thiệu](./intro.md)
 - 🐛 [GitHub Issues](https://github.com/asean-ai/civic-twin/issues)
 - 💭 [Discussions](https://github.com/asean-ai/civic-twin/discussions)

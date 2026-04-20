@@ -172,7 +172,7 @@ curl -X POST http://localhost:3005/api/emergency/fastest-route \
 - 💡 **AI Explanation**: "Tại sao dự án này tốt/xấu?" (Natural language)
 
 **Technologies**: React/Vue, D3.js, Chart.js, Leaflet  
-**Documentation**: [DashboardService/Readme.md](./DashboardService/Readme.md)
+**Documentation**: [AnalyticsService/Readme.md](./AnalyticsService/Readme.md)
 
 ---
 
