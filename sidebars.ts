@@ -82,6 +82,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'doc',
+      id: 'Package_License',
+      label: '📗 Giấy phép thư viện',
+    },
+    {
+      type: 'doc',
       id: 'License',
       label: '📜 License',
     },
