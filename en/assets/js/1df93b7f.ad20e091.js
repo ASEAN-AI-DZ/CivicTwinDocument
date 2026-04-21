@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcivictwin_docs=self.webpackChunkcivictwin_docs||[]).push([[583],{6866:(c,e,n)=>{n.r(e),n.d(e,{default:()=>u});var t=n(6025),i=n(6540),s=n(6347);function u(){const c=(0,s.W6)(),e=(0,t.A)("/intro");return(0,i.useEffect)(()=>{c.replace(e)},[c,e]),null}}}]);
