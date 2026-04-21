@@ -16,7 +16,11 @@ const config: Config = {
   deploymentBranch: 'gh-pages',
   i18n: {
     defaultLocale: 'vi',
-    locales: ['vi'],
+    locales: ['vi', 'en'],
+    localeConfigs: {
+      vi: { label: 'Tiếng Việt', direction: 'ltr', htmlLang: 'vi' },
+      en: { label: 'English', direction: 'ltr', htmlLang: 'en' },
+    },
   },
   presets: [
     [
@@ -41,7 +45,7 @@ const config: Config = {
       title: 'CivicTwin AI',
       logo: {
         alt: 'CivicTwin AI Logo',
-        src: '/logo.png',
+        src: '/img/logo.png',
       },
       items: [
         {

@@ -4,11 +4,11 @@ import {useHistory} from '@docusaurus/router';
 
 export default function Home(): JSX.Element {
   const history = useHistory();
-  const baseUrl = useBaseUrl('/');
+  const introUrl = useBaseUrl('/intro');
 
   useEffect(() => {
-    history.replace(baseUrl + 'intro');
-  }, [history, baseUrl]);
+    history.replace(introUrl);
+  }, [history, introUrl]);
 
   return null;
 }

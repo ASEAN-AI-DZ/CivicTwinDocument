@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 
-Media Service quản lý việc upload, lưu trữ, và phân phối các file media (hình ảnh, video, audio) trong hệ thống CityResQ360.
+Media Service quản lý việc upload, lưu trữ, và phân phối các file media (hình ảnh, video, audio) trong hệ thống CivicTwin.
 
 ## Chức năng chính
 
@@ -63,4 +63,4 @@ Service này tích hợp với:
 
 ## License
 
-Dự án này được phân phối dưới [GNU General Public License v3.0](https://github.com/MNM-DTU-DZ/CityResQ360-DTUDZ/blob/master/LICENSE).
+Dự án này được phân phối dưới [GNU General Public License v3.0](https://github.com/ASEAN-AI-DZ/CivicTwin/blob/master/LICENSE).

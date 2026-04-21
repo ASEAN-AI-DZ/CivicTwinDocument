@@ -1,10 +1,10 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
-title: CityResQ360
+title: CivicTwin AI
 description: Nền tảng phản ánh, cảnh báo & giám sát đô thị thông minh
 show_downloads: true
 github:
-  zip_url: https://github.com/NguyenThai11103/DTU-CityResQ360-documents/zipball/main
-  tar_url: https://github.com/NguyenThai11103/DTU-CityResQ360-documents/tarball/main
-  repository_url: https://github.com/NguyenThai11103/DTU-CityResQ360-documents
+  zip_url: https://github.com/ASEAN-AI-DZ/CivicTwinDocument/zipball/gh-pages
+  tar_url: https://github.com/ASEAN-AI-DZ/CivicTwinDocument/tarball/gh-pages
+  repository_url: https://github.com/ASEAN-AI-DZ/CivicTwinDocument

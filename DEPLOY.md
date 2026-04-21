@@ -22,16 +22,18 @@ Dự án này sử dụng GitHub Actions để tự động deploy website Docus
 ### 2. Kiểm tra cấu hình
 
 File `docusaurus.config.ts` đã được cấu hình với:
-- `url`: `https://nguyenthai11103.github.io`
-- `baseUrl`: `/DTU-CityResQ360-documents/`
-- `organizationName`: `NguyenThai11103`
-- `projectName`: `DTU-CityResQ360-documents`
+
+- `url`: `https://asean-ai-dz.github.io`
+- `baseUrl`: `/CivicTwinDocument/`
+- `organizationName`: `asean-ai-dz`
+- `projectName`: `CivicTwinDocument`
 
 ## 🚀 Deploy tự động (Khuyến nghị)
 
 ### Cách 1: Sử dụng GitHub Actions (Tự động)
 
 1. Push code lên branch `master` hoặc `main`:
+
    ```bash
    git add .
    git commit -m "Update documentation"
@@ -41,7 +43,7 @@ File `docusaurus.config.ts` đã được cấu hình với:
 2. GitHub Actions sẽ tự động:
    - Build website
    - Deploy lên branch `gh-pages`
-   - Website sẽ có sẵn tại: `https://nguyenthai11103.github.io/DTU-CityResQ360-documents/`
+   - Website sẽ có sẵn tại: `https://asean-ai-dz.github.io/CivicTwinDocument/`
 
 3. Kiểm tra workflow:
    - Vào tab **Actions** trên GitHub
@@ -64,7 +66,7 @@ GIT_USER=NguyenThai11103 yarn deploy
 ## 🔍 Kiểm tra sau khi deploy
 
 1. Đợi vài phút để GitHub xử lý
-2. Truy cập: `https://nguyenthai11103.github.io/DTU-CityResQ360-documents/`
+2. Truy cập: `https://asean-ai-dz.github.io/CivicTwinDocument/`
 3. Nếu chưa thấy, kiểm tra:
    - Workflow có chạy thành công không (tab Actions)
    - Branch `gh-pages` đã được tạo chưa
@@ -79,14 +81,17 @@ GIT_USER=NguyenThai11103 yarn deploy
 ## 🐛 Xử lý lỗi
 
 ### Lỗi: Workflow không chạy
+
 - Kiểm tra file `.github/workflows/deploy.yml` có tồn tại
 - Kiểm tra branch name (master/main) có đúng không
 
 ### Lỗi: Build fail
+
 - Kiểm tra lỗi trong tab Actions
 - Chạy `yarn build` local để kiểm tra lỗi
 
 ### Lỗi: 404 trên GitHub Pages
+
 - Kiểm tra `baseUrl` trong `docusaurus.config.ts` có đúng không
 - Kiểm tra Settings > Pages có cấu hình đúng branch `gh-pages` không
 - Đợi thêm vài phút (GitHub cần thời gian xử lý)
@@ -96,4 +101,3 @@ GIT_USER=NguyenThai11103 yarn deploy
 - [Docusaurus Deployment Guide](https://docusaurus.io/docs/deployment)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
-

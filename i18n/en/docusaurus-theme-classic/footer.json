@@ -1,0 +1,58 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Team": {
+    "message": "Team",
+    "description": "The title of the footer links column with title=Team in the footer"
+  },
+  "link.item.label.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label of footer link with label=Getting Started linking to /intro"
+  },
+  "link.item.label.Architecture": {
+    "message": "Architecture",
+    "description": "The label of footer link with label=Architecture linking to /Architecture"
+  },
+  "link.item.label.Installation": {
+    "message": "Installation",
+    "description": "The label of footer link with label=Installation linking to /Installation"
+  },
+  "link.item.label.Services": {
+    "message": "Services",
+    "description": "The label of footer link with label=Services linking to /Services"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/ASEAN-AI-DZ/CivicTwinDocument"
+  },
+  "link.item.label.Issues": {
+    "message": "Issues",
+    "description": "The label of footer link with label=Issues linking to https://github.com/ASEAN-AI-DZ/CivicTwinDocument/issues"
+  },
+  "link.item.label.Discussions": {
+    "message": "Discussions",
+    "description": "The label of footer link with label=Discussions linking to https://github.com/ASEAN-AI-DZ/CivicTwinDocument/discussions"
+  },
+  "link.item.label.Lê Thanh Trường": {
+    "message": "Lê Thanh Trường",
+    "description": "The label of footer link with label=Lê Thanh Trường linking to mailto:thanhtruong23111999@gmail.com"
+  },
+  "link.item.label.Nguyễn Văn Nhân": {
+    "message": "Nguyễn Văn Nhân",
+    "description": "The label of footer link with label=Nguyễn Văn Nhân linking to mailto:vannhan130504@gmail.com"
+  },
+  "link.item.label.Nguyễn Ngọc Duy Thái": {
+    "message": "Nguyễn Ngọc Duy Thái",
+    "description": "The label of footer link with label=Nguyễn Ngọc Duy Thái linking to mailto:kkdn011@gmail.com"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 CivicTwin AI. Developed for ASEAN Smart Cities. Built with ❤️ for Evidence-Based Urban Governance.",
+    "description": "The footer copyright"
+  }
+}

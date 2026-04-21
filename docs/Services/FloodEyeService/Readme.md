@@ -15,21 +15,18 @@ Dịch vụ FloodEye sử dụng trí tuệ nhân tạo để phát hiện và p
 ### 🌊 Phát hiện lũ lụt
 
 - **Phân tích hình ảnh bằng AI**
-
   - Deep learning models (CNN)
   - Transfer learning (ResNet, EfficientNet)
   - Custom trained models
   - Real-time inference
 
 - **Phát hiện mực nước**
-
   - Nhận diện mặt nước
   - Ước lượng độ sâu
   - So sánh với baseline
   - Tracking water level changes
 
 - **Phân loại mức độ lũ**
-
   - **Cấp 1 (Thấp)**: Ngập nhẹ, không nguy hiểm
   - **Cấp 2 (Trung bình)**: Ngập vừa, cần theo dõi
   - **Cấp 3 (Cao)**: Ngập nặng, nguy hiểm
@@ -44,21 +41,18 @@ Dịch vụ FloodEye sử dụng trí tuệ nhân tạo để phát hiện và p
 ### 📸 Xử lý hình ảnh
 
 - **Tiền xử lý hình ảnh**
-
   - Resize và normalize
   - Color correction
   - Noise reduction
   - Enhancement
 
 - **Trích xuất đặc trưng**
-
   - Feature extraction
   - Edge detection
   - Texture analysis
   - Pattern recognition
 
 - **Suy luận mô hình**
-
   - Model inference
   - GPU acceleration
   - Batch processing
@@ -73,21 +67,18 @@ Dịch vụ FloodEye sử dụng trí tuệ nhân tạo để phát hiện và p
 ### 🗺️ Phân tích không gian địa lý
 
 - **Lập bản đồ lũ lụt**
-
   - Flood extent mapping
   - Inundation areas
   - Water depth visualization
   - Time-series animation
 
 - **Tính toán khu vực bị ảnh hưởng**
-
   - Affected area calculation
   - Population at risk
   - Infrastructure impact
   - Economic loss estimation
 
 - **Xác định vùng nguy hiểm**
-
   - Risk zones identification
   - Evacuation routes
   - Safe zones mapping
@@ -102,21 +93,18 @@ Dịch vụ FloodEye sử dụng trí tuệ nhân tạo để phát hiện và p
 ### 🔔 Hệ thống cảnh báo
 
 - **Cảnh báo lũ tự động**
-
   - Automatic alert generation
   - Multi-level warnings
   - Escalation rules
   - Alert distribution
 
 - **Thông báo mức độ rủi ro**
-
   - Risk level notification
   - Affected population
   - Recommended actions
   - Real-time updates
 
 - **Tích hợp với NotificationService**
-
   - Push notifications
   - SMS alerts
   - Email warnings
@@ -163,4 +151,4 @@ Dịch vụ này tích hợp với:
 
 ## 📄 Giấy phép
 
-Dự án này được phân phối dưới [GNU General Public License v3.0](https://github.com/MNM-DTU-DZ/CityResQ360-DTUDZ/blob/master/LICENSE).
+Dự án này được phân phối dưới [GNU General Public License v3.0](https://github.com/ASEAN-AI-DZ/CivicTwin/blob/master/LICENSE).

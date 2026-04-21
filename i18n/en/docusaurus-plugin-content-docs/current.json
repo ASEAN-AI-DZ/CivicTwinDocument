@@ -1,0 +1,70 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.🔌 Services": {
+    "message": "🔌 Services",
+    "description": "The label for category 🔌 Services in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.🚀 Giới thiệu": {
+    "message": "🚀 Introduction",
+    "description": "The label for the doc item 🚀 Giới thiệu in sidebar tutorialSidebar, linking to the doc intro"
+  },
+  "sidebar.tutorialSidebar.doc.📝 Tổng quan": {
+    "message": "📝 Getting Started",
+    "description": "The label for the doc item 📝 Tổng quan in sidebar tutorialSidebar, linking to the doc GettingStarted"
+  },
+  "sidebar.tutorialSidebar.doc.AIMLService": {
+    "message": "AI/ML Service",
+    "description": "The label for the doc item AIMLService in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.AnalyticsService": {
+    "message": "Analytics Service",
+    "description": "The label for the doc item AnalyticsService in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.FloodEyeService": {
+    "message": "FloodEye Service",
+    "description": "The label for the doc item FloodEyeService in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.IncidentService": {
+    "message": "Incident Service",
+    "description": "The label for the doc item IncidentService in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.IoTService": {
+    "message": "IoT Service",
+    "description": "The label for the doc item IoTService in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.MediaService": {
+    "message": "Media Service",
+    "description": "The label for the doc item MediaService in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.NotificationService": {
+    "message": "Notification Service",
+    "description": "The label for the doc item NotificationService in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.SearchService": {
+    "message": "Search Service",
+    "description": "The label for the doc item SearchService in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.WalletService": {
+    "message": "Wallet Service",
+    "description": "The label for the doc item WalletService in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.🏗️ Kiến trúc hệ thống": {
+    "message": "🏗️ System Architecture",
+    "description": "The label for the doc item 🏗️ Kiến trúc hệ thống in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.🔧 Hướng dẫn cài đặt": {
+    "message": "🔧 Installation Guide",
+    "description": "The label for the doc item 🔧 Hướng dẫn cài đặt in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.🔧 Cài đặt không dùng Docker": {
+    "message": "🔧 Build Without Docker",
+    "description": "The label for the doc item 🔧 Cài đặt không dùng Docker in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.📜 License": {
+    "message": "📜 License",
+    "description": "The label for the doc item 📜 License in sidebar tutorialSidebar"
+  }
+}

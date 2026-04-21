@@ -1,7 +1,7 @@
 {
-  "name": "cityresq360-docs",
+  "name": "civictwin-docs",
   "version": "1.0.0",
-  "description": "CityResQ360 - Smart City Platform Documentation",
+  "description": "CivicTwin - Smart City Platform Documentation",
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",

@@ -6,7 +6,7 @@
 **Cơ sở dữ liệu:** Meilisearch  
 **Trạng thái:** 🟡 Đang phát triển
 
-Dịch vụ Search cung cấp khả năng tìm kiếm nhanh, chính xác và linh hoạt cho hệ thống CityResQ360 với hỗ trợ tìm kiếm toàn văn, lọc nâng cao và tìm kiếm không gian địa lý.
+Dịch vụ Search cung cấp khả năng tìm kiếm nhanh, chính xác và linh hoạt cho hệ thống CivicTwin với hỗ trợ tìm kiếm toàn văn, lọc nâng cao và tìm kiếm không gian địa lý.
 
 ---
 
@@ -158,4 +158,4 @@ Dịch vụ này tích hợp với:
 ---
 ## 📄 Giấy phép
 
-Dự án này được phân phối dưới [GNU General Public License v3.0](https://github.com/MNM-DTU-DZ/CityResQ360-DTUDZ/blob/master/LICENSE).
+Dự án này được phân phối dưới [GNU General Public License v3.0](https://github.com/ASEAN-AI-DZ/CivicTwin/blob/master/LICENSE).

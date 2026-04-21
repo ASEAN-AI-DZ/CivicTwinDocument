@@ -29,14 +29,14 @@
 
 ## Công Nghệ
 
-| Thành phần | Công nghệ |
-|-----------|-----------|
-| **Simulation Core** | Python (Mesa, AnyLogic DSL) |
-| **API Framework** | FastAPI |
-| **Parallel Computing** | Ray, Dask |
-| **Database** | PostgreSQL (kết quả), MongoDB (metadata) |
-| **Visualization** | GeoJSON, D3.js |
-| **AI Integration** | Amazon Nova (impact prediction) |
+| Thành phần             | Công nghệ                                |
+| ---------------------- | ---------------------------------------- |
+| **Simulation Core**    | Python (Mesa, AnyLogic DSL)              |
+| **API Framework**      | FastAPI                                  |
+| **Parallel Computing** | Ray, Dask                                |
+| **Database**           | PostgreSQL (kết quả), MongoDB (metadata) |
+| **Visualization**      | GeoJSON, D3.js                           |
+| **AI Integration**     | Amazon Nova (impact prediction)          |
 
 ---
 
@@ -249,16 +249,19 @@ Response:
 ### Agent-Based Model (ABM)
 
 Mô phỏng hành vi của:
+
 - 👥 Người từ nhà đi làm → chợ → nhà (morning rush, evening rush)
 - 🏢 Doanh nghiệp (tác động kinh tế địa phương)
 - 🚗 Vận tải (logistics, di chuyển toàn thành phố)
 
 ### Tính Bản chất:
+
 - Stochastic (có ngẫu nhiên)
 - Multi-period (5–10 năm, monthly/quarterly steps)
 - Multi-objective (economic, social, environmental)
 
 ### Computational Complexity
+
 - Single scenario: ~5–10 phút trên 1 core
 - Parallel simulation (5 cores): ~2 phút
 - Batch comparison (10 scenarios): ~20–30 phút
@@ -273,11 +276,13 @@ Mô phỏng hành vi của:
 // User tạo scenario
 const scenario = await simulationService.createScenario({
   name: "New Hospital in District 4",
-  infrastructure: [{
-    type: "hospital",
-    location: { lat: 16.10, lon: 108.18 },
-    capacity: 500
-  }]
+  infrastructure: [
+    {
+      type: "hospital",
+      location: { lat: 16.1, lon: 108.18 },
+      capacity: 500,
+    },
+  ],
 });
 
 // Run simulation
@@ -299,7 +304,7 @@ radarChart.render({
   social: result.social.equity_score,
   environmental: result.environmental.co2_reduction,
   transportation: result.transportation.congestion_reduction,
-  safety: result.safety.accident_reduction
+  safety: result.safety.accident_reduction,
 });
 
 // Hiển thị giải thích AI
@@ -330,19 +335,19 @@ ray_cluster:
   version: "1.0"
   cluster_name: civic-sim
   max_workers: 10
-  worker_node_type: gpu_worker  # optional: for faster simulations
+  worker_node_type: gpu_worker # optional: for faster simulations
 ```
 
 ---
 
 ## Performance Targets
 
-| Metric | Target |
-|--------|--------|
+| Metric                  | Target   |
+| ----------------------- | -------- |
 | Single scenario latency | < 10 min |
-| Parallel 5 scenarios | < 3 min |
-| Impact predictions | < 1 sec |
-| API response time | < 500 ms |
+| Parallel 5 scenarios    | < 3 min  |
+| Impact predictions      | < 1 sec  |
+| API response time       | < 500 ms |
 
 ---
 
@@ -352,9 +357,6 @@ ray_cluster:
 - [Prediction Service](../AIMLService/) – Impact predictions
 - [Dashboard Service](/Services/) – Visualization
 - [Notification Service](../NotificationService/) – Alerts
-
-
-
   - Daily summary
   - Weekly digest
   - Monthly report
@@ -362,7 +364,6 @@ ray_cluster:
   - Annual report
 
 - **Phạm vi ngày tùy chỉnh**
-
   - Custom date range
   - Comparison periods
   - Year-over-year
@@ -370,7 +371,6 @@ ray_cluster:
   - Week-over-week
 
 - **Xuất ra PDF/Excel**
-
   - PDF reports với charts
   - Excel spreadsheets
   - CSV exports
@@ -387,7 +387,6 @@ ray_cluster:
 ### 🔍 Tổng hợp dữ liệu
 
 - **Phân tích đa chiều**
-
   - Multi-dimensional analysis
   - Drill-down capabilities
   - Slice and dice
@@ -395,7 +394,6 @@ ray_cluster:
   - OLAP cubes
 
 - **Tổng hợp chuỗi thời gian**
-
   - Time-series aggregation
   - Rolling windows
   - Moving averages
@@ -403,7 +401,6 @@ ray_cluster:
   - Rate of change
 
 - **Phân tích nhóm**
-
   - Group by category
   - Group by location
   - Group by agency
@@ -420,7 +417,6 @@ ray_cluster:
 ### 🎯 Trí tuệ kinh doanh
 
 - **Phân tích dự đoán**
-
   - Predictive models
   - Machine learning integration
   - Trend forecasting
@@ -428,7 +424,6 @@ ray_cluster:
   - Resource planning
 
 - **Phát hiện bất thường**
-
   - Anomaly detection
   - Outlier identification
   - Unusual patterns
@@ -436,7 +431,6 @@ ray_cluster:
   - Root cause analysis
 
 - **Nhận dạng mẫu**
-
   - Pattern recognition
   - Clustering analysis
   - Association rules
@@ -537,4 +531,4 @@ GROUP BY date, category, status;
 
 ## 📄 Giấy phép
 
-Dự án này được phân phối dưới [GNU General Public License v3.0](https://github.com/MNM-DTU-DZ/CityResQ360-DTUDZ/blob/master/LICENSE).
+Dự án này được phân phối dưới [GNU General Public License v3.0](https://github.com/ASEAN-AI-DZ/CivicTwin/blob/master/LICENSE).
